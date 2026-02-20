@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'storylines-4872f2448f0a.herokuapp.com',]
+ALLOWED_HOSTS = ['https://*.herokuapp.com', 'storylines-4872f2448f0a.herokuapp.com', '127.0.0.1',]
 
 # Application definition
 
