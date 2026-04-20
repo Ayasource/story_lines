@@ -12,3 +12,4 @@ class StoryLine(models.Model):
     story_summary = models.CharField(max_length=200)
     story_excerpt = models.TextField()
     slug = models.SlugField(max_length=200, unique=True)
+    excerpt_image = models.ImageField(upload_to='story_excerpts/')
